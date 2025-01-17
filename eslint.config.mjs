@@ -17,6 +17,9 @@ export default [
   },
   ...compat.extends('@rocketseat/eslint-config/node'),
   {
-    rules: {},
+    rules: {
+      '@typescript-eslint/no-unused-vars': 'off',
+      'no-unused-vars': 'off',
+    },
   },
 ]
